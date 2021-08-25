@@ -29,6 +29,7 @@ function App() {
       <div style={{textAlign:'center', display:'flex', justifyContent:'space-around'}}>
         <button onClick={()=>setstate('Done')}>Done</button>
         <button  onClick={()=>setstate('Not Done')}>Not Done</button>
+        <button onClick={()=>setstate('all')}>All tasks</button>
       </div>
       
   {
